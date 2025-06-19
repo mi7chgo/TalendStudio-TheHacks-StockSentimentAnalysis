@@ -1,0 +1,42 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Hackathon-TickerNewsSentimentAnalysis-API",
+    "description" : "No description",
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "url" : "/"
+  } ],
+  "paths" : {
+    "/TickerNewsSentimentAnalysis" : {
+      "get" : {
+        "parameters" : [ {
+          "name" : "ticker",
+          "in" : "query",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          },
+          "style" : "form",
+          "explode" : true
+        }, {
+          "name" : "date",
+          "in" : "query",
+          "required" : false,
+          "schema" : {
+            "type" : "string",
+            "format" : "date"
+          },
+          "style" : "form",
+          "explode" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      }
+    }
+  }
+}

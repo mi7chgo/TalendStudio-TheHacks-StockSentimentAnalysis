@@ -35,4 +35,23 @@
     "version" : "Latest",
     "type" : "routine"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_iGGPgE0hEfCK0rtMJepbPQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_936MwE0lEfCK0rtMJepbPQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_clFeAE0hEfCK0rtMJepbPQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_936MwE0lEfCK0rtMJepbPQ - TICKER_NEWS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]
